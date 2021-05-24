@@ -1,0 +1,373 @@
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.apice {
+    background-color: #0000;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 0 20px;
+}
+
+.apice__logo {
+    margin-top: 15px;
+}
+
+.apice__list {
+    display: flex;
+    list-style: none;
+}
+
+.apice__list-item {
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.apice__list-link {
+    text-decoration: none;
+    color: #fefefe;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.apice__list-btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #22C58E;
+    color: #fefeff;
+    cursor: pointer;
+}
+
+.apice__list-item:nth-child(5) {
+    margin-top: 7px;
+}
+
+.apice__img {
+    background-image: url(../images/heAD.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 685px;
+    padding: 1px 0 0;
+}
+
+.apice__title {
+    left: 110px;
+    top: 30px;
+    font-family: Poppins;
+    font-size: 45px;
+    line-height: 58px;
+    margin-left: 70px;
+}
+
+.apice__title-list {
+    list-style: none;
+    margin-left: 30px;
+    top: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.apice__img-item {
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.media {
+    padding: 20px 0
+}
+
+.media__img {
+    margin-left: 12px;
+}
+
+.discuss {
+    background-color: #C4C4C4;
+    padding: 100px 0;
+}
+
+.discuss__innner {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: right 385px bottom 50px;
+    ;
+
+
+}
+
+.discuss__title {
+    font-family: Poppins;
+    font-size: 45px;
+    line-height: 58px;
+}
+
+.discuss__list {
+    list-style: none;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 34px;
+    margin-left: -40px;
+}
+
+
+.discuss__img-1 {
+    margin-top: 50px;
+
+}
+
+.discuss__img-group {
+    margin-top: 20px;
+}
+
+.discuss__img-group-2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.system__section {
+    padding: 50px 0;
+    background-image: url('../images/Ativo\ 1@3x\ 2\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.system__title {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    line-height: 58px;
+}
+
+.system__card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.system__text {
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.system__img {
+    margin-left: 40px;
+}
+
+.system__img-1 {
+    margin-left: 50px;
+}
+
+.system__img-2 {
+    margin-left: 55px;
+}
+
+.system__text-1 {
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.system__title-1 {
+    font-family: Poppins;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.system__title-2 {
+    font-family: Poppins;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.system__ativo {
+    margin-left: 480px;
+}
+
+.system__ativo-text {
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.Nos__section {
+    background-color: #292742;
+    padding: 100px 0;
+
+}
+
+.Nos__title {
+    font-family: Poppins;
+    font-size: 45px;
+    line-height: 48px;
+    text-align: center;
+    color: #fefefe;
+}
+
+.Nos__text {
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 84px;
+    text-align: center;
+    color: #fefefe;
+
+}
+
+.Nos__card {
+    background-color: #fefefe;
+    width: 600px;
+    height: 300px;
+    border-radius: 40px;
+    padding-top: 40px;
+    position: relative;
+    margin: auto;
+    margin-bottom: -200px;
+    box-shadow: 0px 30px 50px 25px rgba(41, 39, 66, 0.06);
+}
+
+.Nos__list {
+    list-style: none;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+
+
+}
+
+.Nos__list-item {
+    position: relative;
+}
+
+.Nos__list-item::before {
+    position: absolute;
+    left: 50px;
+}
+
+.NOSSS {
+    margin-left: 40px;
+}
+
+.contact__section {
+    width: 1050px;
+    height: 390px;
+    border-radius: 20px;
+    background-color: #dff0ea;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+.contact__title {
+    font-family: Poppins;
+    font-size: 45px;
+    line-height: 48px;
+    text-align: center;
+    color: #000;
+}
+
+.contact__text {
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.contact__btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 420px;
+    border-radius: 25px;
+    border: none;
+    background-color: #22C58E;
+    color: #fefefe;
+}
+
+.contact__btn:hover {
+    background-color: #000;
+    color: #fefefe;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+
+.footer__section {
+    padding: 100px 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.media__list {
+    list-style: none;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.media__list-item {
+    margin-left: -30px;
+    margin-top: 15px;
+}
+
+.media__list-item:nth-child(1) {
+    margin-top: 40px;
+}
+
+.media__list-item:nth-child(4) {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.footer__navigation-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__list {
+    list-style: none;
+    list-style: none;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.navigation__list-2 {
+    list-style: none;
+    list-style: none;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.navigation__list-item {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.navigation__list-item:nth-child(1) {
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+}
